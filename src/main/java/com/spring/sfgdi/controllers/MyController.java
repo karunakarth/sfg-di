@@ -2,6 +2,7 @@ package com.spring.sfgdi.controllers;
 
 import com.spring.sfgdi.services.GreetingService;
 import org.springframework.stereotype.Controller;
+import org.w3c.dom.ls.LSOutput;
 
 @Controller
 public class MyController {
@@ -15,4 +16,5 @@ public class MyController {
     public String sayHello(){
         return greetingService.sayGreeting();
     }
+
 }
